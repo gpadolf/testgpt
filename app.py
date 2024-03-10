@@ -8,7 +8,7 @@ from transformers import GPT2Tokenizer
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
-api_key = os.environ["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"]
+api_key = os.environ["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"]
 
 openai.api_key = api_key
 

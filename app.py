@@ -8,7 +8,7 @@ from transformers import GPT2Tokenizer
 
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
-api_key = os.environ["OPENAI_API_KEY"]
+api_key = os.environ["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"]
 
 openai.api_key = api_key
 
@@ -17,7 +17,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 app.config['JSONIFY_ESCAPE'] = False
 
 total_tokens_used = 0
-model_to_use = 'gpt-4'
+model_to_use = 'gpt-3.5'
 
 PRICE_PER_TOKEN = 0.00006
 
